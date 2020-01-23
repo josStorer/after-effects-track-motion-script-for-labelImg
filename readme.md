@@ -28,4 +28,4 @@ This script uses AE's motion tracking to quickly create xml files for [labelImg]
 
 ### Keyframes of the first tracker must cover the whole timeline as a time check layer, empty tracking can be used
 
-### set trackers' name as "tag:[Your Name]" to set the corresponding labelimg tag name
+### Set trackers' name as "tag:[Your Name]" to set the corresponding labelimg tag name
