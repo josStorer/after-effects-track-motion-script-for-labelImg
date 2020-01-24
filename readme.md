@@ -1,6 +1,6 @@
 # About
 
-This script uses AE's motion tracking to quickly create xml files for [labelImg](https://github.com/tzutalin/labelImg)
+This script uses track motion of After Effects to create XML files quickly for [labelImg](https://github.com/tzutalin/labelImg)
 
 ## How to use
 
@@ -16,16 +16,16 @@ This script uses AE's motion tracking to quickly create xml files for [labelImg]
 
 ## Notice
 
-### The composition and png sequence layer must at the top,or you can change this script at line 22
+### The composition and png sequence layer must remain at the top, or you can change this script at line 22
 
 ### Set "Allow scripts to write file and access network" in preferences
 
 ### When you want the size of the tracker to change significantly, create a new tracker at the subsequent keyframe
 
-### You can just select and delete keyframes to remove unwanted information
+### You can select and delete keyframes to remove unwanted information
 
-### Observe during analysis, if the target leaves the area, you can stop analyzing forward
+### Observe during analyzing, if the target leaves the area, you can stop analyzing forward
 
-### Keyframes of the first tracker must cover the whole timeline as a time check layer, empty tracking can be used
+### Keyframes of the first tracker must cover the whole timeline as a time check layer, and you can use empty tracking
 
-### Set trackers' name as "tag:[Your Name]" to set the corresponding labelimg tag name
+### Set trackers' name as "tag:[Your Name]" to set the corresponding labelImg tag name
