@@ -16,7 +16,7 @@ This script uses track motion of After Effects to create XML files quickly for [
 
 ## Notice
 
-### The composition and png sequence layer must remain at the top, or you can change this script at line 22
+### The composition and png sequence layer must remain at the top, or you can change this script at [line 22](https://github.com/1466587594/after-effects-track-motion-script-for-labelImg/blob/master/after-effects-track-motion-script-for-labelImg.jsx#L22)
 
 ### Set "Allow scripts to write file and access network" in preferences
 
